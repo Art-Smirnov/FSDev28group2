@@ -15,7 +15,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   width: 1440px;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 /* Шапка сайту */
 .nav-container.container {
@@ -46,12 +46,13 @@ header {
 }
 
 .nav.list {
-  display: flex;
-  justify-content: space-between;
+  font-weight: bold;
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 0;
   margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
 }
 .nav.list .link:hover,
 .nav.list .link:focus {
