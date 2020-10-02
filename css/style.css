@@ -35,6 +35,8 @@ h2 {
 }
 .nav.text {
   color: #ffffff;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
 }
 a {
   text-decoration: none;
