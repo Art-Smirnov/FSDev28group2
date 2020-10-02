@@ -20,6 +20,10 @@ body {
   width: 1440px;
   /* outline: 2px solid green; */
 }
+
+.book-cover {
+}
+
 /* Шапка сайту */
 h1 {
   color: #ffffff;
@@ -40,14 +44,14 @@ h2 {
 }
 a {
   text-decoration: none;
-  color: #ffbc00;
+  color: #ffffff;
 }
 .list {
   list-style: none;
 }
 
 header {
-  background-color: #0b1653;
+  background-color: #9c3d11;
 }
 
 .nav.list {
