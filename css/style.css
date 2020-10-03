@@ -90,3 +90,32 @@ header {
 .exercises-text2 {
   margin-left: 70px;
 }
+
+.reflection {
+  margin: 0 100px;
+}
+
+.reflection-title {
+  width: 400px;
+  text-align: center;
+}
+
+.reflection-title p {
+  font-size: 20px;
+  margin: 0;
+}
+.img-reflection {
+  max-width: 300px;
+}
+.reflection-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.replection-methods {
+  display: flex;
+  justify-content: space-around;
+}
+.reflection-item {
+  width: 370px;
+}
