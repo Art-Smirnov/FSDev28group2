@@ -121,7 +121,7 @@ header {
   margin-right: 150px;
   margin-bottom: 150px;
   flex-basis: calc((100% - 3 * 150px) / 3);
-
+  
   background-color: whitesmoke;
   border-radius: 4px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
