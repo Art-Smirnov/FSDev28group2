@@ -20,10 +20,6 @@ body {
   width: 1440px;
   /* outline: 2px solid green; */
 }
-
-.book-cover {
-}
-
 /* Шапка сайту */
 h1 {
   color: #ffffff;
@@ -39,19 +35,17 @@ h2 {
 }
 .nav.text {
   color: #ffffff;
-  letter-spacing: 0.03em;
-  line-height: 1.8;
 }
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ffbc00;
 }
 .list {
   list-style: none;
 }
 
 header {
-  background-color: #9c3d11;
+  background-color: #0b1653;
 }
 
 .nav.list {
@@ -80,7 +74,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 /* Упражнения */
 .exercises-container {
   display: flex;
