@@ -91,3 +91,27 @@ header {
   margin-left: 70px;
 }
 
+/* section info */
+.info {
+  text-align: center;
+}
+.info-title {
+  display: none;
+}
+.box-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.info-text {
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.info-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
