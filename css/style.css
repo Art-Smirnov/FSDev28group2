@@ -92,16 +92,19 @@ header {
 }
 
 .reflection {
-  margin: 0 100px;
+  background-image: url('https://www.aspasios.com/blog/wp-content/uploads/2014/02/background-hero-running1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .reflection-title {
-  width: 400px;
+  margin: 40px 0;
+  width: 800px;
   text-align: center;
 }
 
 .reflection-title p {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
 }
 .img-reflection {
@@ -110,12 +113,36 @@ header {
 .reflection-container {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.reflection .container {
+  padding: 0;
 }
 .replection-methods {
   display: flex;
   justify-content: space-around;
+  margin: 20px 100px;
 }
 .reflection-item {
-  width: 370px;
+  width: 350px;
+}
+.reflection-item:nth-child(2) {
+  width: 650px;
+}
+.reflection-item:nth-child(3) {
+  width: 550px;
+}
+.reflection-item img {
+  width: 200px;
+}
+
+.replection-methods ul li:first-of-type,
+.reflection-item-title {
+  list-style: none;
+  text-align: center;
+}
+
+.reflection-item-title b {
+  line-height: 35px;
+  font-size: 36px;
 }
