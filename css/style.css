@@ -1,7 +1,7 @@
 /* основний колір фона:#FFFFFF */
 /* другорядний колір фона: #0b1653 */
 /* колір акцента #FFBC00 */
-
+@import "style-result.css";
 body {
   color: black;
   background-color: #ffffff;
@@ -64,3 +64,6 @@ header {
 .main-info {
   width: 600px;
 }
+
+@import "style-result.css";
+
