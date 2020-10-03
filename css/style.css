@@ -84,6 +84,7 @@ header {
 }
 
 /* Упражнения */
+
 .exercises-container {
   display: flex;
   justify-content: space-between;
@@ -93,6 +94,7 @@ header {
   margin-left: 70px;
 }
 /* итог */
+
 .conclusion-container {
   display: flex;
   justify-content: space-between;
