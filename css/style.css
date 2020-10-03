@@ -68,8 +68,19 @@ header {
 .main-info {
   width: 600px;
 }
+
 /* Практика мышления */
 .thinking-practise {
   display: flex;
   justify-content: space-between;
 }
+/* Упражнения */
+.exercises-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exercises-text2 {
+  margin-left: 70px;
+}
+
