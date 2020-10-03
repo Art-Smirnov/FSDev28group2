@@ -74,6 +74,7 @@ header {
 .main-info {
   width: 600px;
 }
+
 /* Практика мышления */
 .thinking-practise {
   display: flex;
@@ -89,3 +90,4 @@ header {
 .exercises-text2 {
   margin-left: 70px;
 }
+
