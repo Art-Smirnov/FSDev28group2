@@ -44,7 +44,7 @@ h2 {
   letter-spacing: 0.03em;
   line-height: 1.8;
 }
-a {
+.nav.list a {
   text-decoration: none;
   color: #ffffff;
 }
