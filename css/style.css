@@ -96,9 +96,10 @@ header {
 .conclusion-container {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px
 }
+
 /* наша команда */
+
 .team-title {
   color: black;
   font-size: 36px;
