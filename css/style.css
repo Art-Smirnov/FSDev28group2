@@ -17,7 +17,7 @@ body {
   padding-right: 20px;
   padding-bottom: 70px;
   padding-top: 70px;
-  width: 1440px;
+  /* width: 1440px; */
   /* outline: 2px solid green; */
 }
 
@@ -92,6 +92,62 @@ header {
   margin-left: 70px;
 }
 
+
+.reflection {
+  background-image: url('https://www.aspasios.com/blog/wp-content/uploads/2014/02/background-hero-running1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.reflection-title {
+  margin: 40px 0;
+  width: 800px;
+  text-align: center;
+}
+
+.reflection-title p {
+  font-size: 25px;
+  margin: 0;
+}
+.img-reflection {
+  max-width: 300px;
+}
+.reflection-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.reflection .container {
+  padding: 0;
+}
+.replection-methods {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 100px;
+}
+.reflection-item {
+  width: 350px;
+}
+.reflection-item:nth-child(2) {
+  width: 650px;
+}
+.reflection-item:nth-child(3) {
+  width: 550px;
+}
+.reflection-item img {
+  width: 200px;
+}
+
+.replection-methods ul li:first-of-type,
+.reflection-item-title {
+  list-style: none;
+  text-align: center;
+}
+
+.reflection-item-title b {
+  line-height: 35px;
+  font-size: 36px;
+
 /* итог */
 
 .conclusion-container {
@@ -127,4 +183,5 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+
 }
