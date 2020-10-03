@@ -183,25 +183,20 @@ header {
 
 }
 
-.life-stages{
-  background-color: aqua;
-  width: 750px;
+.life-stages {
   display: flex;
-  justify-content: space-between;
 }
 
-.life-stages-container{
-  display: flex;
-  justify-content: space-between;
+
+.life-stage-text {
+  margin: 0px 20px;
 }
 
-.life-stage-text{
-  width: 750px;
+.life-stages-title {
+  text-align: center;
+  margin-bottom: -20px;
 }
 
-.life-stage-text-2{
-  padding-left: 30px;
+.life-stage-photo {
+  margin-top: 40px;
 }
-/* float: left;
-  display: inline;
-  border: 1px; */
