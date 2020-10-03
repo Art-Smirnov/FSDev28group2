@@ -147,8 +147,15 @@ header {
 .reflection-item-title b {
   line-height: 35px;
   font-size: 36px;
-
+}
 /* итог */
+
+.conclusion-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .conclusion-container {
   display: flex;
@@ -185,3 +192,10 @@ header {
   line-height: 1.18;
 
 }
+/* цитаты */
+.quotes-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
