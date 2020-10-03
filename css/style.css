@@ -1,5 +1,5 @@
 /* основний колір фона:#FFFFFF */
-/* другорядний колір фона: #0b1653 */
+/* другорядний колір фона: #9c3d11 */
 /* колір акцента #FFBC00 */
 
 body {
@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .container {
@@ -17,12 +18,13 @@ body {
   padding-right: 20px;
   padding-bottom: 70px;
   padding-top: 70px;
-  width: 1440px;
-  /* outline: 2px solid green; */
+  width: 1300px;
+  outline: 2px solid green;
 }
+.section
 
-.book-cover {
-}
+/* .book-cover {
+} */
 
 /* Шапка сайту */
 h1 {
@@ -65,7 +67,7 @@ header {
 }
 .nav.list .link:hover,
 .nav.list .link:focus {
-  color: #ffffff;
+  color: #0b1653;
 }
 .main-nav-container {
   display: flex;
@@ -90,11 +92,38 @@ header {
 .exercises-text2 {
   margin-left: 70px;
 }
-
-/* Итог */
+/* итог */
 .conclusion-container {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
 }
-
+/* наша команда */
+.team-title {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+.team.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-right: -150px;
+  margin-bottom: -150px;
+  padding: 0;
+}
+.team.list img {
+  width: 300px;
+}
+.team.list li {
+  padding: 10px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+  flex-basis: calc((100% - 3 * 150px) / 3);
+  
+  background-color: whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
