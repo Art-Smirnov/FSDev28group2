@@ -21,9 +21,6 @@ body {
   /* outline: 2px solid green; */
 }
 
-.book-cover {
-}
-
 /* Шапка сайту */
 h1 {
   color: #ffffff;
@@ -185,3 +182,26 @@ header {
   line-height: 1.18;
 
 }
+
+.life-stages{
+  background-color: aqua;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-stages-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-stage-text{
+  width: 750px;
+}
+
+.life-stage-text-2{
+  padding-left: 30px;
+}
+/* float: left;
+  display: inline;
+  border: 1px; */
