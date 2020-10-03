@@ -82,6 +82,7 @@ header {
 }
 
 /* Упражнения */
+
 .exercises-container {
   display: flex;
   justify-content: space-between;
@@ -90,6 +91,7 @@ header {
 .exercises-text2 {
   margin-left: 70px;
 }
+
 
 .reflection {
   background-image: url('https://www.aspasios.com/blog/wp-content/uploads/2014/02/background-hero-running1.jpg');
@@ -145,4 +147,41 @@ header {
 .reflection-item-title b {
   line-height: 35px;
   font-size: 36px;
+
+/* итог */
+
+.conclusion-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* наша команда */
+
+.team-title {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+.info-title {
+  display: none;
+}
+.box-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.info-text {
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.info-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+
 }
