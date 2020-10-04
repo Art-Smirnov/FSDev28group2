@@ -93,6 +93,7 @@ header {
 .exercises-container {
   display: flex;
   justify-content: space-between;
+  background-color: #fed4a3;
 }
 
 .exercises-text2 {
@@ -339,4 +340,15 @@ header {
 .map-button:focus {
   background-color: #0b1653;
   color: #ffffff;
+}
+
+.main-quotes-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  width: 1360px;
+  background-color: #a7d5ff;
 }
