@@ -245,3 +245,39 @@ header {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
+/* Section Describe */
+.describe .container {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  outline: 1px solid #ffffff
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.describe .block{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.title-fox{
+  display: none;
+  background-color: firebrick;
+  }
+
+  .describe .text{
+    margin: 0;
+    margin-bottom: 15px;
+
+  font-size: 14px;
+  line-height: 1.7;
+  }
+ .describe  .fox{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+  }
