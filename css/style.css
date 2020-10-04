@@ -248,25 +248,75 @@ header {
 
 /* Section Describe */
 .describe .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  outline: 1px;
+
   text-align: center;
 }
-
 .describe .block {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
+
+
+.title-fox {
+  display: none;
+}
+
 .describe .text {
-  margin: 0;
+
   margin-bottom: 15px;
 
   font-size: 14px;
   line-height: 1.7;
 }
 .describe .fox {
-  margin: 0;
-  padding: 0;
   margin-bottom: 15px;
+}
+/* sectioun aboutus */
+.aboutus .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+
+  text-align: center;
+}
+.mainmap {
+  list-style: none;
+  text-align: center;
+}
+
+.bottommap:hover,
+.bottommap:focus {
+  color: blue;
+}
+.bottommap {
+  color: black;
+  background-color: var(--accent-color);
+}
+
+.button-primary {
+  color: black;
+  background-color: blue;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.button-primary:hover,
+.button-primary:focus {
+  color: white;
+  background-color: grey;
+}
+.context {
+  margin-top: 25px;
+  margin-bottom: 35px;
+
 }
 /* кнопка */
 .map-button {
