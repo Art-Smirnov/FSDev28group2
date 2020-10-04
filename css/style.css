@@ -21,8 +21,8 @@ body {
   /* outline: 2px solid green; */
 }
 
-.book-cover {
-}
+/* .book-cover {
+} */
 
 /* Шапка сайту */
 h1 {
@@ -65,7 +65,7 @@ header {
 }
 .nav.list .link:hover,
 .nav.list .link:focus {
-  color: #ffffff;
+  color: #0b1653;
 }
 .main-nav-container {
   display: flex;
@@ -91,7 +91,6 @@ header {
 .exercises-text2 {
   margin-left: 70px;
 }
-
 
 .reflection {
   background-image: url('https://www.aspasios.com/blog/wp-content/uploads/2014/02/background-hero-running1.jpg');
@@ -147,6 +146,7 @@ header {
 .reflection-item-title b {
   line-height: 35px;
   font-size: 36px;
+}
 
 /* итог */
 
@@ -156,7 +156,28 @@ header {
 }
 
 /* наша команда */
+.team-container.container {
+  width: 1300px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 
+  background-color: #0b1653;
+
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+.button:hover {
+  background-color: #ffbc00;
+}
 .team-title {
   color: black;
   font-size: 36px;
@@ -164,24 +185,25 @@ header {
   text-transform: uppercase;
   text-align: center;
 }
-.info-title {
-  display: none;
-}
-.box-info {
+.team.list {
   display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
-.info-text {
-  list-style-type: none;
-  position: relative;
-  margin: 0;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-right: -150px;
+  margin-bottom: -150px;
   padding: 0;
 }
-.info-about {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
+.team.list img {
+  width: 100%;
+}
+.team.list li {
+  padding: 10px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+  flex-basis: calc((100% - 3 * 150px) / 3);
 
+  background-color: whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
