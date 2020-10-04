@@ -295,26 +295,14 @@ header {
   background-color: var(--accent-color);
 }
 
-.button-primary {
-  color: black;
-  background-color: blue;
-  border: 1px solid transparent;
-  padding: 10px 32px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  text-decoration: none;
-  border-radius: 4px;
-}
-.button-primary:hover,
-.button-primary:focus {
-  color: white;
-  background-color: grey;
-}
-.context {
+.cont {
   margin-top: 25px;
   margin-bottom: 35px;
+}
+.map.container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 /* кнопка */
 .map-button {
@@ -351,4 +339,46 @@ header {
   padding-top: 40px;
   width: 1360px;
   background-color: #a7d5ff;
+}
+
+/* footer */
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  outline: 1px;
+  text-align: center;
+}
+.footer-section {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+.footer-box {
+  list-style: none;
+  text-align: center;
+  position: absolute;
+  top: 440px;
+  left: 0;
+  width: 100%;
+}
+.footer-box ul {
+  list-style: none;
+}
+.bottomteam {
+  color: white;
+}
+.bottomteam:hover,
+.bottomteam:focus {
+  color: #c20202;
+}
+.text-footer {
+  margin: 0;
+  padding: 0;
+}
+.reklama {
+  text-align: right;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 100%;
 }
