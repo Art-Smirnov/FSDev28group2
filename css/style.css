@@ -15,15 +15,18 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 70px;
-  padding-top: 70px;
-  /* width: 1440px; */
-  /* outline: 2px solid green; */
+  padding-bottom: 40px;
+  padding-top: 40px;
+  /* width: 1440px;
+  outline: 2px solid green; */
 }
 
 /* Шапка сайту */
+/* .nav-container.container {
+  padding-top: 40px;
+} */
 h1 {
-  color:#1067eb;
+  color: #1067eb;
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
   margin-top: 0;
@@ -49,10 +52,12 @@ a {
 
 header {
   /* background-color: #9c3d11; */
-   background-image: url('https://eaglemountain.com.au/wp-content/uploads/2017/11/Footer.png');
+  background-image: url('https://eaglemountain.com.au/wp-content/uploads/2017/11/Footer.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  
+}
+.nav.list .link {
+  margin-right: 40px;
 }
 
 .nav.list {
@@ -60,14 +65,13 @@ header {
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 0;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .nav.list .link:hover,
 .nav.list .link:focus {
   color: #c20202;
-
 }
 .main-nav-container {
   display: flex;
@@ -75,7 +79,7 @@ header {
 }
 .main-info {
   width: 600px;
-  margin-left: 370px;
+  /* margin-left: 370px; */
 }
 
 /* Практика мышления */
@@ -156,8 +160,8 @@ header {
 .conclusion-container {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
 }
 
 .conclusion-container {
@@ -222,7 +226,6 @@ header {
   display: flex;
 }
 
-
 .life-stage-text {
   margin: 0px 20px;
 }
@@ -241,4 +244,4 @@ header {
   justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
- }
+}
