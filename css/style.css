@@ -150,6 +150,13 @@ header {
 .conclusion-container {
   display: flex;
   justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.conclusion-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* наша команда */
@@ -200,3 +207,10 @@ header {
 .life-stage-photo {
   margin-top: 40px;
 }
+/* цитаты */
+.quotes-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
