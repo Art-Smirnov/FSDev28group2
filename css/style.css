@@ -23,7 +23,7 @@ body {
 
 /* Шапка сайту */
 /* .nav-container.container {
-  padding-top: 40px;
+  padding-bottom: ;
 } */
 h1 {
   color: #1067eb;
@@ -259,13 +259,11 @@ header {
   list-style: none;
 }
 
-
 .title-fox {
   display: none;
 }
 
 .describe .text {
-
   margin-bottom: 15px;
 
   font-size: 14px;
@@ -316,7 +314,6 @@ header {
 .context {
   margin-top: 25px;
   margin-bottom: 35px;
-
 }
 /* кнопка */
 .map-button {
