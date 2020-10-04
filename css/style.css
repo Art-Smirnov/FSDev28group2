@@ -93,6 +93,7 @@ header {
 .exercises-container {
   display: flex;
   justify-content: space-between;
+  background-color: #fed4a3;
 }
 
 .exercises-text2 {
